@@ -5,7 +5,6 @@ const eqArrays = function(a , b) {
 const assertArraysEqual = function (a , b) {
   const PS1 = "✅ ";
   const PS2 = "🛑 ";
-  let res = "";
   const equal = eqArrays(a,b);
   return (equal ? console.log(`${PS1} Assertion Passed!`) : console.log(`${PS2} Assertion Failed!`));
 };
