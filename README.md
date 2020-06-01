@@ -26,16 +26,16 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function1(head)`: A function that returns the first element from the array.
-* `function2(tail)`: A function that returns every element except the head (first element) of the array.
-* `function3(middle)`: A function that returns an array with only the middle element(s) of the provided array. 
-* `function4(without)`: A function that returns a subset of a given array, removing unwanted elements.
-* `function5(countOnly)`: A function that will be given an array and an object. It will return an object containing counts of everything that the input object listed.
-* `function6(countLetters)`: A function that takes in a sentence (as a string) and then return a count of each of the letters in that sentence.
-* `function7(letterPositions)`: A function that returns all the indices (zero-based positions) in the string where each character is found.
-* `function8(findKeyByValue)`: A function that takes in an object and a value. It should scan the object and return the first key which contains the given value. If no key with that given value is found, then it should return undefined.
-* `function9(eqObjects)`: A function that takes in two objects and returns true or false, based on a perfect match.
-* `function10(assertObjectsEqual)`: A function that takes in two objects and console.log an appropriate message to the console.
-* `function11(map)`: A function that takes in two arguments and returns a new array based on the results of the callback function.
-* `function12(takeUntil)`: A function that takes two parameters and return a slice of the array with elements taken from the beginning. It should keep going until the callback/predicate returns a truthy value.
-* `function13(findKey)`: A function that takes in an object and a callback. It should scan the object and return the first key for which the callback returns a truthy value. If no key is found, then it should return undefined.
+* `function head(..)`: A function that returns the first element from the array.
+* `function tail(..)`: A function that returns every element except the head (first element) of the array.
+* `function middle(..)`: A function that returns an array with only the middle element(s) of the provided array. 
+* `function without(..)`: A function that returns a subset of a given array, removing unwanted elements.
+* `function countOnly(..)`: A function that will be given an array and an object. It will return an object containing counts of everything that the input object listed.
+* `function countLetters(..)`: A function that takes in a sentence (as a string) and then return a count of each of the letters in that sentence.
+* `function letterPositions(..)`: A function that returns all the indices (zero-based positions) in the string where each character is found.
+* `function findKeyByValue(..)`: A function that takes in an object and a value. It should scan the object and return the first key which contains the given value. If no key with that given value is found, then it should return undefined.
+* `function eqObjects(..)`: A function that takes in two objects and returns true or false, based on a perfect match.
+* `function assertObjectsEqual(..)`: A function that takes in two objects and console.log an appropriate message to the console.
+* `function map(..)`: A function that takes in two arguments and returns a new array based on the results of the callback function.
+* `function takeUntil(..)`: A function that takes two parameters and return a slice of the array with elements taken from the beginning. It should keep going until the callback/predicate returns a truthy value.
+* `function findKey(..)`: A function that takes in an object and a callback. It should scan the object and return the first key for which the callback returns a truthy value. If no key is found, then it should return undefined.
