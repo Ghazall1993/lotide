@@ -1,12 +1,9 @@
-const eqArrays = function(a , b) {
-  return (JSON.stringify(a) === JSON.stringify(b));
+const eqArrays = require('./eqArrays');
+
+const assertArraysEqual = function (actual , expected) {
+  const successMsg = `✅ Assertion Passed! ${actual}  ===  ${expected}`;
+  const errorMsg = `🛑 Assertion Failed! ${actual}  !==  ${expected}`
+  console.log(eqArrays(a,b) ? successMsg : errorMsg)
 };
 
-const assertArraysEqual = function (a , b) {
-  const PS1 = "✅ ";
-  const PS2 = "🛑 ";
-  const equal = eqArrays(a,b);
-  return (equal ? console.log(`${PS1} Assertion Passed!`) : console.log(`${PS2} Assertion Failed!`));
-};
-
-assertArraysEqual ([2, 1, 3], [1, 2, 3]);
+module.exports = assertArraysEqual;
